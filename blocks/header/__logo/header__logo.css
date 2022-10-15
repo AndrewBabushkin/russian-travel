@@ -1,0 +1,15 @@
+.header__logo {
+  width: 142px;
+  height: 42px;
+  margin: 16px 0 0 0;
+  background-image: url("../../../image/header-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 360px) {
+  .header__logo {
+    width: 176px;
+    height: 52px;
+    margin: 28px 0 0 0;
+  }
+}

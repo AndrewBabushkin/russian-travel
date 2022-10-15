@@ -1,0 +1,11 @@
+.place__description {
+  max-width: calc(100% - 32px);
+  margin: 32px auto 0;
+}
+
+@media (min-width: 768px) {
+  .place__description {
+    margin: 0;
+    width: 100%;
+  }
+}

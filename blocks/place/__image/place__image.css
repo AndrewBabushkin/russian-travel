@@ -1,0 +1,10 @@
+.place__image {
+  width: 100%; /*Свойство max-width работает не корректно, не позволяет растягиваться картинке свыше 320px, поэтому задал свойство width*/
+  margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    margin: 0;
+  }
+}

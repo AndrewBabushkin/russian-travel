@@ -1,0 +1,9 @@
+.intro__text {
+  line-height: 163%;
+}
+
+@media (min-width: 1024px) {
+  .intro__text {
+    max-width: 690px;
+  }
+}

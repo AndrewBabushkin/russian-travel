@@ -1,6 +1,6 @@
 .cover__link {
   max-width: 100%;
-  min-height: 200px;
+  min-height: 62.5vw;
   background-image: linear-gradient(
       rgba(42, 44, 47, 0.3),
       rgba(42, 44, 47, 0.3)
@@ -23,12 +23,6 @@
       rgba(42, 44, 47, 0.8)
     ),
     url("../../../image/cover-img.png");
-}
-
-@media (min-width: 321px) {
-  .cover__link {
-    min-height: 340px;
-  }
 }
 
 @media (min-width: 768px) {

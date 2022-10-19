@@ -1,10 +1,39 @@
 .place__image {
-  width: 100%; /*Свойство max-width работает не корректно, не позволяет растягиваться картинке свыше 320px, поэтому задал свойство width*/
+  max-width: 320px;
   margin-top: 32px;
+}
+
+@media (min-width: 321px) {
+  .place__image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    }
+}
+
+@media (min-width: 492px) {
+  .place__image {
+    margin-right: 0;
+    margin-left: 16px;
+  }
 }
 
 @media (min-width: 768px) {
   .place__image {
     margin: 0;
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__image {
+    max-width: 460px;
   }
 }

@@ -3,19 +3,20 @@
   margin: 0 auto;
   font-weight: 900;
   font-size: 32px;
-  line-height: 1.1;
+  line-height: 1.09;
 }
 
 @media (min-width: 768px) {
   .place__title {
     font-size: 42px;
     margin: 0;
+    line-height: 1.1;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .place__title {
     font-size: 72px;
-    margin: 0;
+    line-height: 1.06;
   }
 }

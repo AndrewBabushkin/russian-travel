@@ -6,6 +6,18 @@
 @media (min-width: 768px) {
   .place__description {
     margin: 0;
-    width: 100%;
+    max-width: 352px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__description {
+    max-width: 456px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__description {
+    max-width: 484px;
   }
 }

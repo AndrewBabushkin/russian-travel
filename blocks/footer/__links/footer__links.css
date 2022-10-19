@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+@media (min-width: 321px) {
+  .footer__links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    row-gap: 32px;
+  }
+}
 @media (min-width: 768px) {
   .footer__links {
     flex-direction: row;

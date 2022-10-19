@@ -4,17 +4,11 @@
   padding: 64px 0 66px;
 }
 
-@media (min-width: 425px) {
-  .places {
-    max-width: calc(100% - 32px);
-    margin: 0 auto;
-  }
-}
-
 @media (min-width: 768px) {
   .places {
     max-width: calc(100% - 48px);
     padding: 88px 0 90px;
+    margin: 0 auto;
   }
 }
 

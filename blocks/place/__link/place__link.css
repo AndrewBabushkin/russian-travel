@@ -2,9 +2,10 @@
   margin-top: 12px;
   font-size: 18px;
   line-height: 22px;
-  color: white;
+  color: #fff;
   transition: opacity 0.4s ease-in;
   display: block;
+  text-decoration: underline;
 }
 
 .place__link:hover {

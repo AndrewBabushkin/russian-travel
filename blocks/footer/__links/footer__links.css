@@ -12,7 +12,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 18px;
-    row-gap: 32px;
   }
 }
 @media (min-width: 768px) {
